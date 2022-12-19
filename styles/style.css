@@ -470,7 +470,7 @@ body {
 }
 
 .chat .content .message-content .message.me {
-    align-self: flex-end;
+    align-self: flex-start;
 }
 
 .chat .content .message-content .message.me .time {
@@ -1128,3 +1128,287 @@ select option {
     padding: 10px;
     font-size: larger; 
 }
+
+
+
+.chat .sidebar {
+    background: #1d2d2d;
+    padding-left: 5%;
+  }
+  
+  .chat .sidebar .channels ul li.active a, .chat .sidebar .channels ul li a:hover {
+    background:  #1d2d2d;
+  }
+  
+  .chat .sidebar .search input {
+    display:none;
+  }
+  
+  .search-outer {
+    display:none;
+  }
+
+  .chat .sidebar .channels ul li a span, .chat .sidebar .user-in-sidebar a span {
+    width: 25px;
+height: 23px;
+
+border-bottom: none;
+  }
+
+  .menufont {
+    font-size: 20px;
+    color: white;
+    
+  }
+
+  .chat .sidebar .user-in-sidebar {
+    border-bottom: none;
+    
+        background-color: #1d2d2d;
+        color: white;
+        opacity: 1;
+        transition: 0.3s;
+        padding-left: 10px;
+  }
+
+  .chat .sidebar .user-in-sidebar:hover {
+  opacity: 0.7
+  }
+
+  .chat .content .message-content .message .bubble {
+    background-color: #1d2d2d;
+    color: white;
+    background-image:none;
+    color: white !important;
+    
+  }
+  .chat .content .message-content .message {
+    background-color: #1d2d2d;
+    color: white;
+    background-image:none;
+    color: white !important;
+    
+  }
+  .chat .content {
+    background-color: #1d2d2d;
+    color: white;
+    background-image:none;
+    border-left: none;
+  }
+
+  .chat .content .message-form {
+    border-top: 1px solid var(--background-color-3);
+    background: var(--background-color-2);
+    padding: 10px;
+    background-color: #1d2d2d;
+    border: none;
+  }
+
+  .chat .sidebar .channels ul li a .channel-inner .message, .chat .sidebar .channels ul li a .dm-inner .message {
+    color: white;
+  }
+
+  .chat .content .message-form ul li.emoji-btn a, li.send-btn a {
+    background: #1d2d2d;
+    color: #00d6c2;
+    font-size: 23px;
+
+  }
+
+  .chat .content .message-form ul li.send-btn a {
+    background: #1d2d2d;
+    color: #00d6c2;
+    font-size: 23px;
+]
+  }
+
+  .chat .content .message-form ul li.sound-btn a {
+    background: #1d2d2d;
+    color: #00d6c2;
+    font-size: 23px;
+
+  }
+
+  .chat .content .message-form ul li.image-btn a {
+    background: #1d2d2d;
+    color: #00d6c2;
+    font-size: 23px;
+  
+  }
+
+  .chat .content .message-form ul li.input textarea {
+    background-color: #1d2d2d;
+    border: none;
+    color: white;
+  }
+
+  .chat .content .message-header {
+    background-color: #1d2d2d;
+    border: none;
+    color: white;
+  }
+
+
+  .chat .content .message-header .channel-info .channel-wrapper .name {
+    font-size: 21px;
+    color: white;
+  }
+
+  .chat .content .message-header .channel-info .plus-circle {
+    display: none;
+  }
+
+  .chat .content .message-header .channel-info span {
+    display: none;
+  }
+  .locale-switcher {
+    display: none;
+  }
+
+  .chat .content .message-content * {
+    max-width: calc( 100vw - 20px );
+  
+    color: white;
+    
+  }
+
+  .cardcontainer {
+    position: relative;
+    width: 300px;
+    float: left;
+    margin: 10px;
+  }
+  
+  .cardimage {
+    display: block;
+    width: 300px;
+    height: auto;
+  }
+  
+  .cardoverlay {
+    position: absolute;
+    top: 70%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30%;
+    width: 300px;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: #00000085;
+  }
+
+  .cardtext {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 7px;
+    left: 17px;
+    opacity: 2;
+  }
+
+  input {
+    max-width: calc( 100vw - 20px ) !important;
+    background-color: #2d3c3c !important;
+    color: white !important;;
+    border-radius: 3px !important;
+    border:none !important;
+    max-width: 800px !important;
+  }
+
+  textarea {
+    max-width: calc( 100vw - 20px ) !important;
+    background-color: #2d3c3c !important;
+    color: white !important;;
+    border-radius: 3px !important;
+    border:none !important;
+    max-width: 800px !important;
+  }
+
+  button {
+    max-width: calc( 100vw - 20px ) !important;;
+    background-color: #00d6c2 !important;;
+    color: #2d3c3c !important;;
+    border-radius: 3px !important;;
+    border:none !important;;
+  }
+
+  .big-picture {
+    border-radius: 25px;
+    padding-top: 10px;
+  }
+
+  .chat .content .message-form ul li.input {
+    max-width: 800px;
+  }
+
+  #modal {
+    background-color: #2d3c3c;
+  }
+
+  .modal-btn {
+    margin: 5px;
+  }
+
+  .chat .content .message-content .message.me .bubble {
+    background: #00d6c2 !important;
+    color:#2d3c3c;
+  }
+
+  .bubble.div.msgtext {
+    color:#2d3c3c !important;
+  }
+
+  .dm-outer {
+    color: white !important;
+  }
+
+  .chat .sidebar .channels ul li a .channel-inner .name, .chat .sidebar .channels ul li a .dm-inner .name {
+    color: white;
+}
+
+.message-header-alt {
+    border: none;
+    background-color: #2d3c3c;
+}
+
+
+.message-header-alt .channel-info .plus-circle {
+    display: none;
+}
+
+.message-header-hinder {
+    border: none;
+    background-color: #2d3c3c;
+}
+
+.message-header-alt .channel-info .channel-wrapper .time {
+    display:none;
+}
+
+.message-header-alt .channel-info .channel-wrapper .name {
+    font-size: 18px;
+    color: white;
+}
+
+.message-header-alt .sidebar_arrow {
+    display: inline-block;
+    height: 54px;
+    width: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: #00d6c2;
+    font-size: 44px;
+}
+.me {
+    max-width: 800px !important;
+    float: left !important;
+    color: #2d3c3c !important;
+}
+
+.chat .content .message-content .message.me .bubble * {
+    background: #00d6c2 !important;
+    color: #2d3c3c !important;
+}
+
